@@ -68,4 +68,6 @@ GITHUB
 git clone url - copy the files of a git repo locally
 e.g. git clone https://github.com/Alexjmsherman/nlp_practicum_cohort1
 
-2.
+2. Connect to remote repository
+git remote add upstream url
+e.g. git remote add upstream https://github.com/Alexjmsherman/nlp_practicum_cohort1.git
