@@ -1,0 +1,53 @@
+﻿# conda cheat sheet
+https://conda.io/docs/_downloads/conda-cheatsheet.pdf
+
+# 1. ENVIRONMENTS
+# list conda environments
+conda env list
+
+
+# 2. INSTALLATION
+# create a basic conda environment
+conda create --name guild
+
+# create an environment with Python 3.6 and all anaconda packages
+conda create --name guild python=3.6 anaconda
+
+# 2a. RESOLVE ERRORS
+# if you run into errors (for instance downloading a .dll file)
+# run: conda clean --all --yes
+
+
+# 3. INSTALL PACKAGES SETUP
+# add conda-forge to provide ease of access to install python packages
+conda config --add channels conda-forge
+
+
+# 4. JUPYTER NOTEBOOK SETUP
+# add new kernel to jupyer notebook to access kernel
+# http://ipython.readthedocs.io/en/stable/install/kernel_install.html#kernels-for-different-environments
+# https://stackoverflow.com/questions/37433363/link-conda-environment-with-jupyter-notebook
+source activate guild
+conda install nb_conda
+python -m ipykernel install --user --name myenv --display-name "guild environment"
+
+# 4a. RESOLVE ERRORS
+# identify which python version is running in Jupyter notebook
+import sys
+sys.executable
+# if it is the correct python version, try the following
+conda install ipykernel --name Python3
+
+
+# 5. RESOURCES:
+#conda vs pip vs virtualenv
+https://conda.io/docs/_downloads/conda-cheatsheet.pdf
+
+# Video: Managing python environments with conda
+https://www.youtube.com/watch?v=EGaw6VXV3GI
+
+# Effectively using open source with conda
+ppt: https://www.slideshare.net/teoliphant/effectively-using-open-source-with-conda
+
+# Create a virtual env with conda
+http://uoa-eresearch.github.io/eresearch-cookbook/recipe/2014/11/20/conda/
