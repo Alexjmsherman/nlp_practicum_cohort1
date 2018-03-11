@@ -99,3 +99,9 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+# nlp practicum content
+raw_data/
+.idea/
+project/logging/
+
