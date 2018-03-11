@@ -10,19 +10,19 @@
 *  Technology: requests, Jupyter Notebooks, BeautifulSoup
 *  Homework: automate the process to identify and download company 10-K annual reports
 
-### 3. Refactoring
-*  Topics: review and refactor homework, discussing advanced Python syntax and set up python project structure
-*  Technology: python, \__init_\_.py, Spyder IDE
-
-### 4. Text Extraction
+### 3. Text Extraction
 *  Topics: use docx to extract text from Microsoft Word Documents. Discuss PyCharm debugger.
 *  Technology: docx, PyCharm IDE
 *  Homework: structure the annual reports into sections
 
-### 5. Databases
+### 4. Databases
 *  Topics: use sqlalchemy to create and populate a database
 *  Technology: sqlalchemy, sqllite
 *  Homework: create and populate a sqlalchemy database
+
+### 5. Refactoring
+*  Topics: review and refactor homework, discussing advanced Python syntax and set up python project structure
+*  Technology: python, \__init_\_.py, Spyder IDE
 
 ### 6. Text Vectorization
 *  Topics: vector space model, TFIDF, BM25
@@ -55,7 +55,7 @@
 *  Topics: capture, format, and send logging messages to a variety of output. Exception Handling.
 *  Technology: logging, python exceptions
 
-### 13 Testing
+### 13 TBD
 *  Topics: tbd
 *  Technology: tbd
 
