@@ -15,7 +15,9 @@ conda create --name guild
 
 
 # 2a. RESOLVE ERRORS
-# if you run into errors (for instance downloading a .dll file)
+# run the below code, if you run into errors, such as
+# 1. error downloading a .dll file
+# 2. CondaError: PermissionError(13, 'Permission denied')
 conda clean --all --yes
 
 
