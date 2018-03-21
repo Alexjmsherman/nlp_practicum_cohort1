@@ -67,6 +67,6 @@
 *  Topics: capture, format, and send logging messages to a variety of output. Exception Handling. Create an executable of a python package for deployment
 *  Technology: logging, python exceptions, pyinstaller, argparse
 
-### Bones Material
+### Bonus Material
 *  Topics: Discuss vendor partners
 *  Technology: AWS, GCP, Azure, Bluemix
