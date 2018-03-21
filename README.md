@@ -24,45 +24,49 @@
 *  Topics: review and refactor homework, discussing advanced Python syntax and set up python project structure
 *  Technology: python, \__init_\_.py, Spyder IDE
 
-### 6. Text Vectorization
+### 6. Text Preprocessing
+*  Topics: lemmatization, phrase_models, POS tagging, Rule-based matching
+*  Technology: SpaCy, gensim
+
+### 7. Phrase (collocation) Detection
+*  Topics: acronyms, POS phrases, phrase dectection
+*  Technology: SpaCy
+
+### 8. Text Vectorization
 *  Topics: vector space model, TFIDF, BM25
 *  Technology: scikit-learn
 *  Homework: clean text from annual reports
 
-### 7. Text Preprocessing
-*  Topics: lemmatization, phrase_models, POS tagging, Rule-based matching
-*  Technology: SpaCy, gensim
+### 9. Object Oriented Python
+*  Topics: reconstruct scikit-learn's CountVectorizer
+*  Technology: object oriented Python
 
-### 8. Unsupervised ML (Topic Models)
-*  Topics: discuss latent semantic indexing (LSI), latent dirichlet allocation(LDA), and topic coherence metrics
-*  Technology: gensim
-*  Homework: Create topic models for annual report sections
-
-### 9. Text Similarity
+### 10. Text Similarity
 *  Topics: cosine similarity, distance metrics, l1 and l2 norm
 *  Technology: SpaCy, gensim
 
-### 10. Unsupervised ML (Clustering)
+### 11. Unsupervised ML (Clustering)
 *  Topics: Discuss clustering algorithms in scikit-learn
 *  Technology: scikit-learn
 *  Homework: Cluster section names from annual reports
 
-### 11. Data Products (Object Oriented Python)
-*  Topics: reconstruct scikit-learn's CountVectorizer
-*  Technology: object oriented Python
+### 12. Unsupervised ML (Topic Models)
+*  Topics: discuss latent semantic indexing (LSI), latent dirichlet allocation(LDA), and topic coherence metrics
+*  Technology: gensim
+*  Homework: Create topic models for annual report sections
 
-### 12 Logging
-*  Topics: capture, format, and send logging messages to a variety of output. Exception Handling.
-*  Technology: logging, python exceptions
+### 13 Document Classification
+*  Topics: tbd
+*  Technology: scikit-learn
 
-### 13 TBD
+### 14 Pipelines and Custom Transformers
 *  Topics: tbd
 *  Technology: tbd
 
-### 14 Executables and Deployment
-*  Topics: create an executable of a python package for deployment
-*  Technology: pyinstaller, argparse
+### 15 Logging and Executables
+*  Topics: capture, format, and send logging messages to a variety of output. Exception Handling. Create an executable of a python package for deployment
+*  Technology: logging, python exceptions, pyinstaller, argparse
 
-### 15 Discuss applicability to current Deloitte projects
-*  Topics: determine next steps to apply NLP and ML to current projects
-
+### Bones Material
+*  Topics: Discuss vendor partners
+*  Technology: AWS, GCP, Azure, Bluemix
