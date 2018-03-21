@@ -10,4 +10,5 @@ The following people have been core contributors to the NLP Practicum developmen
 
   * Alex Sherman (alsherman@deloitte.com) 
   * Jason Light (jaslight@deloitte.com)
+  * Craig Tapper (ctapper@deloitte.com)
   * Gregory Gooden (ggooden@deloitte.com)
