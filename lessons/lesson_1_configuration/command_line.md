@@ -145,6 +145,9 @@ Exit vim
     press Esc
     press Shift and colon
 
+    exiting vim analysis: vim analysis: https://stackoverflow.blog/2017/05/23/stack-overflow-helping-one-million-developers-exit-vim/
+
+
 To quit without saving, type:
 
     q!

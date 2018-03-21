@@ -12,6 +12,11 @@ Conda as a package manager helps you find and install packages. If you need a pa
 
 
 ### CONDA INSTALLATION
+**Confirm that a Python environment variable is set**
+
+	python -i
+	conda
+
 **add conda-forge to provide ease of access to install python packages**
 
 	conda config --add channels conda-forge
@@ -41,6 +46,10 @@ If you run into errors, such as an error downloading a .dll file or CondaError: 
 
 	conda env list
 
+**Remove an environment and everything in it**
+
+	conda env remove --name
+
 <img src="https://github.com/Alexjmsherman/ml_guild/blob/master/raw_data/images/conda_envs.png" alt="conda_logo" width="200" height="200" />
 
 
@@ -63,6 +72,7 @@ Type the following commands:
 #### RESOLVE ERRORS
 **identify which python version is running in Jupyter notebook**
 
+	python -i
 	import sys
 	sys.executable
 
@@ -76,7 +86,7 @@ Type the following commands:
 ### RESOURCES:
 conda vs pip vs virtualenv
 
-	https://conda.io/docs/_downloads/conda-cheatsheet.pdf
+	http://devopspy.com/python/conda-vs-pip/
 
 Video: Managing python environments with conda
 
