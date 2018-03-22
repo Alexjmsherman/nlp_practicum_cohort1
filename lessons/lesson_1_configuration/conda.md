@@ -67,7 +67,7 @@ Type the following commands:
 		
 	conda install nb_conda
 		
-	python -m ipykernel install --user --name myenv --display-name "guild environment"
+	python -m ipykernel install --user --name guild --display-name "guild environment"
 
 #### RESOLVE ERRORS
 **identify which python version is running in Jupyter notebook**
