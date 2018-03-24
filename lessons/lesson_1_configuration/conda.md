@@ -14,7 +14,12 @@ Conda as a package manager helps you find and install packages. If you need a pa
 ### CONDA INSTALLATION
 **Confirm that a Python environment variable is set**
 
+	
+	# start python
 	python -i
+	# exit python
+	exit()
+	# check if conda is installed (from git bash, not python)
 	conda
 
 **add conda-forge to provide ease of access to install python packages**
@@ -72,9 +77,15 @@ Type the following commands:
 #### RESOLVE ERRORS
 **identify which python version is running in Jupyter notebook**
 
+	# start python
 	python -i
+	# import the system package
 	import sys
+	# check which version of python is running
 	sys.executable
+	# exit python
+	exit()
+
 
 ##### if it is the correct python version, try the following
 	conda install ipykernel --name Python3

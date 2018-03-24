@@ -1,6 +1,6 @@
 # Machine Learning Guild - NLP Practicum
 
-### 1. Configurations
+### 1. Configuration
 *  Topics: course overview, git bash, python config.ini files, conda virtual environments
 *  Technology: git bash, configparser, conda
 *  Homework: use the command line to search data among 1000's of server configuration files
