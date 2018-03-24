@@ -53,7 +53,11 @@ If you run into errors, such as an error downloading a .dll file or CondaError: 
 
 **Remove an environment and everything in it**
 
-	conda env remove --name
+	conda env remove --name [environment_name]
+	# e.g. create a test env
+	conda create --name test
+	# remove the test env
+	conda env remove --name test
 
 <img src="https://github.com/Alexjmsherman/ml_guild/blob/master/raw_data/images/conda_envs.png" alt="conda_logo" width="200" height="200" />
 
