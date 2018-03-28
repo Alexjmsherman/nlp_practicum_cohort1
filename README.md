@@ -41,19 +41,19 @@
 *  Topics: reconstruct scikit-learn's CountVectorizer
 *  Technology: object oriented Python
 
-### 10. Text Similarity
-*  Topics: cosine similarity, distance metrics, l1 and l2 norm
-*  Technology: SpaCy, gensim
-
-### 11. Unsupervised ML (Clustering)
-*  Topics: Discuss clustering algorithms in scikit-learn
-*  Technology: scikit-learn
-*  Homework: Cluster section names from annual reports
-
-### 12. Unsupervised ML (Topic Models)
+### 10. Unsupervised ML (Topic Models)
 *  Topics: discuss latent semantic indexing (LSI), latent dirichlet allocation(LDA), and topic coherence metrics
 *  Technology: gensim
 *  Homework: Create topic models for annual report sections
+
+### 11. Text Similarity
+*  Topics: cosine similarity, distance metrics, l1 and l2 norm
+*  Technology: SpaCy, gensim
+
+### 12. Unsupervised ML (Clustering)
+*  Topics: Discuss clustering algorithms in scikit-learn
+*  Technology: scikit-learn
+*  Homework: Cluster section names from annual reports
 
 ### 13 Document Classification
 *  Topics: tbd
