@@ -7,66 +7,66 @@
 
 ### 2. Automation
 *  Topics: automate the process to collect data from https://www.annualreports.com
-*  Technology: requests, Jupyter Notebooks, BeautifulSoup
+*  Technology: requests, Jupyter Notebooks, BeautifulSoup, Scrapy
 *  Homework: automate the process to identify and download company 10-K annual reports
 
-### 3. Text Extraction
-*  Topics: use docx to extract text from Microsoft Word Documents. Discuss PyCharm debugger.
-*  Technology: docx, PyCharm IDE
+### 3. Databases
+*  Topics: use sqlalchemy to create and populate a database, locally and on AWS
+*  Technology: sqlalchemy, sqllite, AWS RDS (MySQL)
+*  Homework: create and populate a database with sqlalchemy
+
+### 4. Text Extraction
+*  Topics: use docx to extract text from Microsoft Word Documents. Discuss the PyCharm debugger.
+*  Technology: docx, pdfminer.six, subprocess, PyCharm
 *  Homework: structure the annual reports into sections
 
-### 4. Databases
-*  Topics: use sqlalchemy to create and populate a database
-*  Technology: sqlalchemy, sqllite
-*  Homework: create and populate a sqlalchemy database
-
 ### 5. Refactoring
-*  Topics: review and refactor homework, discussing advanced Python syntax and set up python project structure
-*  Technology: python, \__init_\_.py, Spyder IDE
+*  Topics: refactor the automation homework, use task scheduler to automate the script locally, discuss AWS technologies to automate the script in the cloud 
+*  Technology: python, \__init_\_.py, Spyder, AWS S3, AWS Lambda, AWS RDS, AWS CloudWatch
 
 ### 6. Text Preprocessing
-*  Topics: lemmatization, phrase_models, POS tagging, Rule-based matching
-*  Technology: SpaCy, gensim
+*  Topics: lemmatization, POS tagging, Rule-based matching
+*  Technology: SpaCy
 
 ### 7. Phrase (collocation) Detection
 *  Topics: acronyms, POS phrases, phrase dectection
-*  Technology: SpaCy
+*  Technology: SpaCy, gensim
 
-### 8. Text Vectorization
-*  Topics: vector space model, TFIDF, BM25
+### 8. Text Vectorization (count-based methods)
+*  Topics: vector space model, TFIDF, BM25, Co-occurance matrix
 *  Technology: scikit-learn
 *  Homework: clean text from annual reports
 
 ### 9. Object Oriented Python
-*  Topics: reconstruct scikit-learn's CountVectorizer
-*  Technology: object oriented Python
+*  Topics: reconstruct scikit-learn's CountVectorizer codebase
+*  Technology: scikit-learn, object oriented Python
 
 ### 10. Unsupervised ML (Topic Models)
 *  Topics: discuss latent semantic indexing (LSI), latent dirichlet allocation(LDA), and topic coherence metrics
 *  Technology: gensim
 *  Homework: Create topic models for annual report sections
 
-### 11. Text Similarity
+### 11. Text Vectorization (predictive methods)
+*  Topics: word embeddings, Word2Vec
+*  Technology: scikit-learn
+
+### 12. Text Similarity
 *  Topics: cosine similarity, distance metrics, l1 and l2 norm
 *  Technology: SpaCy, gensim
 
-### 12. Unsupervised ML (Clustering)
+### 13. Unsupervised ML (Clustering)
 *  Topics: Discuss clustering algorithms in scikit-learn
 *  Technology: scikit-learn
 *  Homework: Cluster section names from annual reports
 
-### 13 Document Classification
+### 14. Document Classification
 *  Topics: tbd
 *  Technology: scikit-learn
 
-### 14 Pipelines and Custom Transformers
+### 15. Pipelines and Custom Transformers
 *  Topics: tbd
 *  Technology: tbd
 
-### 15 Logging and Executables
+### 16. Logging and Executables
 *  Topics: capture, format, and send logging messages to a variety of output. Exception Handling. Create an executable of a python package for deployment
 *  Technology: logging, python exceptions, pyinstaller, argparse
-
-### Bonus Material
-*  Topics: Discuss vendor partners
-*  Technology: AWS, GCP, Azure, Bluemix
