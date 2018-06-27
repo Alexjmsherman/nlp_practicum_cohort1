@@ -20,12 +20,12 @@
 *  Technology: docx, pdfminer.six, subprocess, PyCharm
 *  Homework: structure the annual reports into sections
 
-### 5. Refactoring
+### 5. AWS Data Processing
 *  Topics: refactor the automation homework, use task scheduler to automate the script locally, discuss AWS technologies to automate the script in the cloud 
-*  Technology: python, \__init_\_.py, Spyder, AWS S3, AWS Lambda, AWS RDS, AWS CloudWatch
+*  Technology: python, \__init_\_.py, Spyder, AWS S3, AWS Lambda, AWS DynamoDB, AWS CloudWatch
 
 ### 6. Text Preprocessing
-*  Topics: lemmatization, POS tagging, Rule-based matching
+*  Topics: lemmatization, POS tagging, dependency parsing, rule-based matching
 *  Technology: SpaCy
 
 ### 7. Phrase (collocation) Detection
@@ -41,32 +41,19 @@
 *  Topics: reconstruct scikit-learn's CountVectorizer codebase
 *  Technology: scikit-learn, object oriented Python
 
-### 10. Unsupervised ML (Topic Models)
-*  Topics: discuss latent semantic indexing (LSI), latent dirichlet allocation(LDA), and topic coherence metrics
-*  Technology: gensim
-*  Homework: Create topic models for annual report sections
+### 10. Word Embeddings
+*  Topics: PCA, latent semantic indexing (LSI), latent dirichlet allocation(LDA), topic coherence metrics, and Word2Vec
+*  Technology: scikit-learn, gensim
+*  Homework: Read TamingTextwiththeSVD (ftp://ftp.sas.com/techsup/download/EMiner/) and create topic models for annual report sections, 
 
-### 11. Text Vectorization (predictive methods)
-*  Topics: word embeddings, Word2Vec
-*  Technology: scikit-learn
+### 11. Text Similarity
+*  Topics: cosine similarity, distance metrics, l1 and l2 norm, recommendation engines
+*  Technology: scikit-learn, SpaCy, gensim
 
-### 12. Text Similarity
-*  Topics: cosine similarity, distance metrics, l1 and l2 norm
-*  Technology: SpaCy, gensim
-
-### 13. Unsupervised ML (Clustering)
-*  Topics: Discuss clustering algorithms in scikit-learn
-*  Technology: scikit-learn
-*  Homework: Cluster section names from annual reports
-
-### 14. Document Classification
+### 12. Document Classification
 *  Topics: tbd
 *  Technology: scikit-learn
 
-### 15. Pipelines and Custom Transformers
-*  Topics: tbd
-*  Technology: tbd
-
-### 16. Logging and Executables
+### 13. Pipelines and Custom Transformers
 *  Topics: capture, format, and send logging messages to a variety of output. Exception Handling. Create an executable of a python package for deployment
-*  Technology: logging, python exceptions, pyinstaller, argparse
+*  Technology: scikit-learn, logging, python exceptions, pyinstaller, argparse
